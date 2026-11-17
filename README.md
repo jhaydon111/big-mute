@@ -1,6 +1,16 @@
 # Big Mute
 
-A LUNA Add On built with `@uaudio/luna-builder-sdk`.
+A LUNA Add On with one big button that mutes the selected track. It opens as a LUNA page
+(Add Ons > Apps > Big Mute), shows the selected track's name, and turns yellow when that track
+is muted. Each click is one undo step.
+
+**Install:** download `big-mute.lunaaddon` from the
+[latest release](https://github.com/jhaydon111/big-mute/releases/latest) and double-click it
+to open it in LUNA.
+
+## Developing
+
+Built with `@uaudio/luna-builder-sdk`.
 
 | File | Purpose |
 |---|---|
